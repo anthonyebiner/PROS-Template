@@ -11,6 +11,14 @@ DOWNLOAD PROS: https://github.com/purduesigbots/pros-cli3/releases (pros-windows
 
 DOWNLOAD GIT: https://git-scm.com/downloads
 
+
+Then you must fork this repository. Make sure that you have a github account. Click the Fork button near
+the top of this page. Once it has been forked into your account, click the Clone or download button. Click
+the little copy button next to the URL it gives you. Then open up Git Bash. You should see a terminal open.
+Then type in "git clone" followed by the link you copied. Click enter and it should download the folder to 
+your computer somewhere. Locate it in file explorer, open it, then click the project.pros file. It should
+open in Atom, and then you are all set!
+
 -----------------------------------------------------------------------------------------------------
 
 The API is a great place for you to figure out this new language. I still use it frequently whenever
@@ -32,5 +40,5 @@ files, such as motors or variables.
 If you are transitioning from RobotC, you might be wondering how to compile and download the program to the
 brain. If you changed any of the header files in the include folder, you must click PROS in the ribbon, then
 click Build, then click All. If not, then you can just click the graphical Build-Pros-Project button. You have
-to do this every time before downloading the code. Once it successfully completes, you can download the code by
-pressing the "Upload PROS Project" button. Then you are ready to go!
+to do this every time before downloading the code. Once it successfully completes, you can download the code 
+by pressing the "Upload PROS Project" button. Then you are ready to go!
