@@ -34,7 +34,7 @@ float distanceToDegreesBack(int distance){
 /////////////////////////////////////////////////////////////////////////////////////////
 
 
-void moveForward(int distance, int velocity){
+void moveForward(int distance, int velocity){ //this doesn't work very well, but it's a good example of a function
   FrontRightM.move_relative(distanceToDegreesFront(distance), velocity);
   FrontLeftM.move_relative(distanceToDegreesFront(distance), velocity);
   BackRightM.move_relative(distanceToDegreesBack(distance), velocity);
